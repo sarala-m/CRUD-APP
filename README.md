@@ -69,20 +69,31 @@ To install Angular on your local system, you need the following:
     ```
     In browser you have to give [http://localhost:4200](http://localhost:4200/) to access the UI.
     
+  * ### Styling an angular application with bootstrap
+
+     1.Command to install bootstrap
+     
+     ```
+     npm install --save bootstrap
+     ```
+     2.Configuring the bootstrap in style.css file
+     
+       >> copy the path of **bootstrap.min.css** inside node_modules
+       >> /node_modules/bootstrap/dist/css/bootstrap.min.css
+       >>inside styles.css file import bootstrap.min.css **@import "~bootstrap/dist/css/bootstrap.min.css";**
+     
+     
+     3.Now you are able to access the bootstrap style properties
+    
     
     ---
     
-   To run the backend service need to have IDE's like **Eclips [www.eclipse.org](https://www.eclipse.org/eclipseide/) 
+   To run the backend service need to have IDE's like **Eclipse [www.eclipse.org](https://www.eclipse.org/eclipseide/) 
    or **Spring Tool Suite [spring.io](https://spring.io/tools)** installed in your system.
    
-     * open **crud-backend-module** workspace in **STS/Eclips**.
+     * open **crud-backend-module** workspace in **STS/Eclipse**.
      * select **crud-backend-module** and run as **Spring Boot App**
    
    Now the crud-backend-module will run on the port 8080, you can change the port by setting 
    **server.port=9090** inside application.properties inside **src/main/resources**.
     
-   
-   
-   
-  
-   
